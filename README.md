@@ -49,6 +49,10 @@ This Leave Management System is designed to automate and simplify leave manageme
 
 ### Authentication
 - `POST /auth/login` – Authenticate user and return JWT token
+- {
+-     "username":"hr",
+-     "password":"hr123"
+- }
 
 ### HR APIs
 - `POST /hr/addUser` – Add new employee and user
